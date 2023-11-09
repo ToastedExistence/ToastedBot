@@ -18,5 +18,9 @@ module.exports = {
 			console.error(`Error executing ${interaction.commandName}`);
 			console.error(error);
 		}
+		
+		if (interaction.commandName === 's-ping') {
+			await interaction.reply({ content: 'Secret Pong!', ephemeral: true });
+		}
 	},
 };
