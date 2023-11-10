@@ -20,7 +20,7 @@ module.exports = {
 		}
 		
 		if (interaction.commandName === 'test-ping') {
-			await interaction.reply({ content: '**_Checking onling status!_** **BOT STATUS: *ONLINE***', ephemeral: true });
+			await interaction.reply({ content: '**_Checking onling status!_** **_BOT STATUS: *ONLINE*_**', ephemeral: true });
 		}
 	},
 };
