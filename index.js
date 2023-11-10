@@ -8,7 +8,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.commands = new Collection();
 const foldersPath = path.join(__dirname, 'commands');
 const commandFolders = fs.readdirSync(foldersPath);
-console.log(`first`);
+console.log(`Loading Temporal Logs`);
 
 for (const folder of commandFolders) {
 	const commandsPath = path.join(foldersPath, folder);
@@ -23,7 +23,7 @@ for (const folder of commandFolders) {
 		}
 	}
 }
-console.log(`second`);
+console.log(`Bypasing Standard Search Protocols`);
 
 const eventsPath = path.join(__dirname, 'events');
 const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
@@ -37,5 +37,5 @@ for (const file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
-console.log(`third`);
+console.log(`Activating Main Personality`);
 client.login(token);

@@ -19,8 +19,8 @@ module.exports = {
 			console.error(error);
 		}
 		
-		if (interaction.commandName === 's-ping') {
-			await interaction.reply({ content: 'Secret Pong!', ephemeral: true });
+		if (interaction.commandName === 'test-ping') {
+			await interaction.reply({ content: '**_Checking onling status!_** **BOT STATUS: *ONLINE***', ephemeral: true });
 		}
 	},
 };
