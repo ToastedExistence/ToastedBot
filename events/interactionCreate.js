@@ -1,4 +1,4 @@
-const { Events } = require('discord.js');
+const { Events, message } = require('discord.js');
 
 module.exports = {
 	name: Events.InteractionCreate,
@@ -18,8 +18,9 @@ module.exports = {
 			console.error(`Error executing ${interaction.commandName}`);
 			console.error(error);
 		}
-		
+
 		if (interaction.commandName === 'test-ping') {
 			await interaction.reply({ content: '**_Checking onling status!_** **_BOT STATUS: *ONLINE*_**', ephemeral: true });
 		}
-}};
+	}
+};
