@@ -19,7 +19,7 @@ module.exports = {
 			console.error(error);
 		}
 
-		if (interaction.commandName === 'test-ping') {
+		if (interaction.commandName === 'test-bot') {
 			await interaction.reply({ content: '**_Checking onling status!_** **_BOT STATUS: *ONLINE*_**', ephemeral: true });
 		}
 	}
