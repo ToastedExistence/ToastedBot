@@ -1,21 +1,33 @@
 const { SlashCommandBuilder, ChannelType } = require('discord.js');
+const wait = require('node:timers/promises').setTimeout;
 
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('lcars')
-        .setDescription('Replies with your input!')
+        .setDescription('Access the LCARS computer system!')
         .addStringOption(option =>
             option.setName('category')
-                .setDescription('The gif category')
+                .setDescription('Select the category that you want to search')
                 .setRequired(true)
                 .addChoices(
-                    { name: 'Funny', value: 'gif_funny' },
-                    { name: 'Meme', value: 'gif_meme' },
-                    { name: 'Movie', value: 'gif_movie' },
+                    { name: 'Science', value: '***SCIENCE COMPUTER FILES***' },
+                    { name: 'Engineering', value: '***ENGINEERING COMPUTER FILES***' },
+                    { name: 'Tactical', value: '***TACTICAl COMPUTER FILES***' },
+                    { name: 'Navigation', value: '***NAVIGATION COMPUTER FILES***' },
+                    { name: 'Command', value: '***COMMAND COMPUTER FILES***' },
                 )),
+        // .addStringOption(option =>
+        //     option.setName('username')
+        //         .setDescription('Log into your starfleet files')
+        //         .setRequired(true)),
     async execute(interaction) {
         const category = interaction.options.getString('category');
+        // const username = interaction.options.getString('username');
 
-        await interaction.reply(`Loading: ${category}`);
+        await interaction.reply({ content: `## **LOADING:** ${category}`, ephemeral: true});
+        await wait(2000);
+        // await interaction.editReply(`## **COMPUTER ACCESS GRANTED TO:** ${category}`);
+        await interaction.followUp({ content: `**ACCESS GRANTED TO:** ${category} **FOR** ***${interaction.user.username}***`, ephemeral: true});
+        console.log(`#COMMAND RUN: ${interaction.user.username} RAN LCARS COMMAND ACCESSING: ${category}`);
     },
 };
