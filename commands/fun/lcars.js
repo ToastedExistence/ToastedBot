@@ -10,24 +10,36 @@ module.exports = {
                 .setDescription('Select the category that you want to search')
                 .setRequired(true)
                 .addChoices(
-                    { name: 'Science', value: '***SCIENCE COMPUTER FILES***' },
-                    { name: 'Engineering', value: '***ENGINEERING COMPUTER FILES***' },
+                    { name: 'Science', value: 'sci' },
+                    { name: 'Engineering', value: 'eng' },
                     { name: 'Tactical', value: '***TACTICAl COMPUTER FILES***' },
                     { name: 'Navigation', value: '***NAVIGATION COMPUTER FILES***' },
                     { name: 'Command', value: '***COMMAND COMPUTER FILES***' },
                 )),
-    // .addStringOption(option =>
-    //     option.setName('username')
-    //         .setDescription('Log into your starfleet files')
-    //         .setRequired(true)),
+
     async execute(interaction) {
         const category = interaction.options.getString('category');
-        // const username = interaction.options.getString('username');
 
-        await interaction.reply({ content: `## **LOADING:** ${category}`, ephemeral: true });
+        //fileres is the first response that get sent to the user
+        let fileres = ''
+       //fileacc is the second response that get sent to the user allowing the user to access the proper files they requested
+        let fileacc = ''
+
+        if (category === 'sci') { 
+            fileres = '***SCIENCE COMPUTER FILES***'    
+            fileacc = '***(SCIENCE COMPUTER FILES)[]***'
+        }
+
+
+        await interaction.reply({ content: `## **LOADING:** ${fileres}`, ephemeral: true });
         await wait(2000);
-        // await interaction.editReply(`## **COMPUTER ACCESS GRANTED TO:** ${category}`);
-        await interaction.followUp({ content: `**GRANTED ACCESS TO:** ${category} **FOR** ***${interaction.user.username}***`, ephemeral: true });
+
+        if (category === '***SCIENCE COMPUTER FILES***') { 
+            await interaction.followUp({ content: `ur mum`, ephemeral: true });
+        }
+
+        await interaction.followUp({ content: `**GRANTED ACCESS TO:** ${fileacc} **FOR** ***${interaction.user.username}***`, ephemeral: true });
+        // await interaction.followUp({ content: `******`, ephemeral: true });
         console.log(`#COMMAND RUN: ${interaction.user.username} RAN LCARS COMMAND ACCESSING: ${category}`);
     },
 };
