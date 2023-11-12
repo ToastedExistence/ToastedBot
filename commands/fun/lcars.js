@@ -27,7 +27,7 @@ module.exports = {
         await interaction.reply({ content: `## **LOADING:** ${category}`, ephemeral: true});
         await wait(2000);
         // await interaction.editReply(`## **COMPUTER ACCESS GRANTED TO:** ${category}`);
-        await interaction.followUp({ content: `**ACCESS GRANTED TO:** ${category} **FOR** ***${interaction.user.username}***`, ephemeral: true});
+        await interaction.followUp({ content: `**GRANTED ACCESS TO:** ${category} **FOR** ***${interaction.user.username}***`, ephemeral: true});
         console.log(`#COMMAND RUN: ${interaction.user.username} RAN LCARS COMMAND ACCESSING: ${category}`);
     },
 };
