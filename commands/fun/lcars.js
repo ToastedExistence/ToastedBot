@@ -16,18 +16,18 @@ module.exports = {
                     { name: 'Navigation', value: '***NAVIGATION COMPUTER FILES***' },
                     { name: 'Command', value: '***COMMAND COMPUTER FILES***' },
                 )),
-        // .addStringOption(option =>
-        //     option.setName('username')
-        //         .setDescription('Log into your starfleet files')
-        //         .setRequired(true)),
+    // .addStringOption(option =>
+    //     option.setName('username')
+    //         .setDescription('Log into your starfleet files')
+    //         .setRequired(true)),
     async execute(interaction) {
         const category = interaction.options.getString('category');
         // const username = interaction.options.getString('username');
 
-        await interaction.reply({ content: `## **LOADING:** ${category}`, ephemeral: true});
+        await interaction.reply({ content: `## **LOADING:** ${category}`, ephemeral: true });
         await wait(2000);
         // await interaction.editReply(`## **COMPUTER ACCESS GRANTED TO:** ${category}`);
-        await interaction.followUp({ content: `**GRANTED ACCESS TO:** ${category} **FOR** ***${interaction.user.username}***`, ephemeral: true});
+        await interaction.followUp({ content: `**GRANTED ACCESS TO:** ${category} **FOR** ***${interaction.user.username}***`, ephemeral: true });
         console.log(`#COMMAND RUN: ${interaction.user.username} RAN LCARS COMMAND ACCESSING: ${category}`);
     },
 };
