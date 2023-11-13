@@ -11,11 +11,12 @@ module.exports = {
         .setName('lcars')
         //this is what sets the commands description
         .setDescription('Access the LCARS computer system!')
-        //this is what allows the user to choose what files they want to access
+        //this allows users to choose parts of the command, in this command it allows the user to choose what files they want to access
+        //note that this is a "StringOption" meaning it allows users to add or pick a string, In this command it is a preset string
         .addStringOption(option =>
             //this sets the name of the option
             option.setName('category')
-                //this sets the discription for the options
+                //this sets the description for the option
                 .setDescription('Select the category that you want to search')
                 //this makes it required for the user to choose what they want before they run the command
                 .setRequired(true)
@@ -33,14 +34,16 @@ module.exports = {
                     { name: 'Command', value: 'cmd' },
                 )),
 
-    //this is what allows the following code to function
+    //this is what allows the following code to work
     async execute(interaction) {
-        //this grabs the options from line 8 to line 18 and allows us to pull what choice the user picked
+        //this grabs the options from line 16 to line 34 and allows us to pull what choice the user picked
         const category = interaction.options.getString('category');
 
         //fileres is the first response that get sent to the user it has no link or any other prompts it just acts as a premsg so that way it simulates a loading time
+        //this is what gets sents out in the message in line 76, the empty string is filled with the information from one of the if statments below
         let fileres = ''
         //fileacc is the second response that get sent to the user allowing the user to access the proper files they requested
+        //this is what gets sents out in the message in line 80, the empty string is filled with the information from one of the if statments below
         let fileacc = ''
 
         //Sci stands for Science linking this variable to line 13 when we define the choice for Science in the command
@@ -70,11 +73,11 @@ module.exports = {
             fileacc = '***[COMMAND COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/report-223a.md)***'
         }
 
-        //this is the first message sent, This acts a loading screen for now. "fileres" is defined above in line 23, "ephemeral" means that the message will be sent only to the user who sent the command
+        //this is the first message sent, This acts a loading screen for now. "fileres" is defined above in line 41, "ephemeral" means that the message will be sent only to the user who sent the command
         await interaction.reply({ content: `## **LOADING:** ${fileres}`, ephemeral: true });
         //this means that the command waits 2000 milliseconds
         await wait(2000);
-        //this is the second message sent, This is what allows the user to access the files that they requested. "fileacc" is deffined above in line 23, "interaction.user.username" grabs the username of the user who sent the command and adds it into the message, "ephemeral" means that the message will be sent only to the user who sent the command
+        //this is the second message sent, This is what allows the user to access the files that they requested. "fileacc" is deffined above in line 44, "interaction.user.username" grabs the username of the user who sent the command and adds it into the message, "ephemeral" means that the message will be sent only to the user who sent the command
         await interaction.followUp({ content: `**GRANTED ACCESS TO:** ${fileacc} **FOR** ***${interaction.user.username}***`, ephemeral: true });
         //this is a logging command that sends to the console what user accessed the command and what category the accesssed
         console.log(`#COMMAND RUN: ${interaction.user.username} RAN LCARS COMMAND ACCESSING: ${category}`);
