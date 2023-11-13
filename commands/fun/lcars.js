@@ -51,7 +51,7 @@ module.exports = {
         //Sci stands for Science linking this variable to line 13 when we define the choice for Science in the command
         if (category === 'sci') {
             fileres = '***SCIENCE COMPUTER FILES***'
-            fileacc = '***[SCIENCE COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/'
+            fileacc = '***[SCIENCE COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/)'
             switch (ran) {
                 case 5:
                     fileacc += 'science-report-223a.md)***'
@@ -74,7 +74,7 @@ module.exports = {
         //eng stands for Engineering linking this variable to line 14 when we define the choice for Engineering in the command
         if (category === 'eng') {
             fileres = '***ENGINEERING COMPUTER FILES***'
-            fileacc = '***[ENGINEERING COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/engineering-files/'
+            fileacc = '***[ENGINEERING COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/engineering-files/)'
             switch (ran) {
                 case 5:
                     fileacc += 'engineering-report-549a.md)***'
@@ -97,22 +97,22 @@ module.exports = {
         //tac stands for Tactical linking this variable to line 15 when we define the choice for Tactical in the command
         if (category === 'tac') {
             fileres = '***TACTICAL COMPUTER FILES***'
-            fileacc = '***[TACTICAL COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/report-223a.md)***'
+            fileacc = '***[TACTICAL COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/tactical-files/)***'
             switch (ran) {
                 case 5:
-                    fileacc += 'science-report-223a.md)***'
+                    fileacc += 'tactical-report-813a.md)***'
                     break
                 case 4:
-                    fileacc += 'science-report-227a.md)***'
+                    fileacc += 'tactical-report-815a.md)***'
                     break
                 case 3:
-                    fileacc += 'science-report-235a.md)***'
+                    fileacc += 'tactical-report-843a.md)***'
                     break
                 case 2:
-                    fileacc += 'science-report-235b.md)***';
+                    fileacc += 'tactical-report-857a.md)***';
                     break;
                 case 1:
-                    fileacc += 'science-report-236a.md)***';
+                    fileacc += 'tactical-report-877a.md)***';
                     break;
             }
         }
@@ -120,7 +120,7 @@ module.exports = {
         //nav stands for Navigation linking this variable to line 16 when we diffine the choice for Navigation in the command
         if (category === 'nav') {
             fileres = '***NAVIGATION COMPUTER FILES***'
-            fileacc = '***[NAVIGATION COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/navigation-files)***'
+            fileacc = '***[NAVIGATION COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/navigation-files/)***'
             switch (ran) {
                 case 5:
                     fileacc += 'navigation-report-545a.md)***'
@@ -143,22 +143,22 @@ module.exports = {
         //Cmd stands for Commmand linking this variable to line 17 when we diffine the choice for Command in the command
         if (category === 'cmd') {
             fileres = '***COMMAND COMPUTER FILES***'
-            fileacc = '***[COMMAND COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/command-files)***'
+            fileacc = '***[COMMAND COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/command-files/)***'
             switch (ran) {
                 case 5:
-                    fileacc += 'science-report-223a.md)***'
+                    fileacc += 'command-report-363a.md)***'
                     break
                 case 4:
-                    fileacc += 'science-report-227a.md)***'
+                    fileacc += 'command-report-394a.md)***'
                     break
                 case 3:
-                    fileacc += 'science-report-235a.md)***'
+                    fileacc += 'command-report-345a.md)***'
                     break
                 case 2:
-                    fileacc += 'science-report-235b.md)***';
+                    fileacc += 'command-report-375b.md)***';
                     break;
                 case 1:
-                    fileacc += 'science-report-236a.md)***';
+                    fileacc += 'command-report-375a.md)***';
                     break;
             }
         }
