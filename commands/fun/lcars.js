@@ -120,22 +120,22 @@ module.exports = {
         //nav stands for Navigation linking this variable to line 16 when we diffine the choice for Navigation in the command
         if (category === 'nav') {
             fileres = '***NAVIGATION COMPUTER FILES***'
-            fileacc = '***[NAVIGATION COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/report-223a.md)***'
+            fileacc = '***[NAVIGATION COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/navigation-files)***'
             switch (ran) {
                 case 5:
-                    fileacc += 'science-report-223a.md)***'
+                    fileacc += 'navigation-report-545a.md)***'
                     break
                 case 4:
-                    fileacc += 'science-report-227a.md)***'
+                    fileacc += 'navigation-report-556a.md)***'
                     break
                 case 3:
-                    fileacc += 'science-report-235a.md)***'
+                    fileacc += 'navigation-report-567a.md)***'
                     break
                 case 2:
-                    fileacc += 'science-report-235b.md)***';
+                    fileacc += 'navigation-report-576a.md)***';
                     break;
                 case 1:
-                    fileacc += 'science-report-236a.md)***';
+                    fileacc += 'navigation-report-588a.md)***';
                     break;
             }
         }
@@ -143,7 +143,7 @@ module.exports = {
         //Cmd stands for Commmand linking this variable to line 17 when we diffine the choice for Command in the command
         if (category === 'cmd') {
             fileres = '***COMMAND COMPUTER FILES***'
-            fileacc = '***[COMMAND COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/report-223a.md)***'
+            fileacc = '***[COMMAND COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/command-files)***'
             switch (ran) {
                 case 5:
                     fileacc += 'science-report-223a.md)***'
