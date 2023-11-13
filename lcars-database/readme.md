@@ -13,7 +13,7 @@ A multi-use library system that will allow you to access files through different
 
 - We acknowledge the fact that our systems are not perfect and could quite possibly have many lies and untruths about other factions. We may also misrepresent the abilities of our faction and our firepower. We do not cover warranty for anyone or anything
 
-- We acknowledge our founders were members of the Frengi trade alliance and may have had some ruff patches before founding our dev team and creating this system but we do not scam, hurt, or cheat any of our customer 
+- We acknowledge our founders were members of the Ferengi trade alliance and may have had some ruff patches before founding our dev team and creating this system but we do not scam, hurt, or cheat any of our customer 
 
 ## Features
 
