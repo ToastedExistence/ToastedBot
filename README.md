@@ -11,7 +11,7 @@ A multi-use Discord bot built for ToastedExistence's [Discord server](https://di
 
 ## Acknowledgements
 
- - [Ender](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Ender](https://www.github.com/theendercore)
  - [Discordjs Guide](https://discordjs.guide)
 
 ## FAQ
