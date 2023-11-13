@@ -1,6 +1,6 @@
 # ToastedBot
 
-A multiuse Discord bot built for ToastedExistence's [Discord server](https://discord.gg/KvS3HU37NN) 
+A multi-use Discord bot built for ToastedExistence's [Discord server](https://discord.gg/KvS3HU37NN) 
 
 
 ## Authors
@@ -12,6 +12,7 @@ A multiuse Discord bot built for ToastedExistence's [Discord server](https://dis
 ## Acknowledgements
 
  - [Ender](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Discordjs Guide](https://discordjs.guide)
 
 ## FAQ
 
@@ -19,10 +20,13 @@ A multiuse Discord bot built for ToastedExistence's [Discord server](https://dis
 
 hehe funny
 
-#### Is this even going to be helpful
+#### Is this even going to be helpful -Ender
 
 only once probably
 
+#### Why the fuck do you have some many comments, that is far too many comments -Ender
+
+Uhhhhh funny
 
 ## Used By
 
