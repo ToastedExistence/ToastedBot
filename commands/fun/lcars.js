@@ -39,6 +39,8 @@ module.exports = {
         //this grabs the options from line 16 to line 34 and allows us to pull what choice the user picked
         const category = interaction.options.getString('category');
 
+        const ran = Math.floor(Math.random() * 5) + 1;
+
         //fileres is the first response that get sent to the user it has no link or any other prompts it just acts as a premsg so that way it simulates a loading time
         //this is what gets sents out in the message in line 76, the empty string is filled with the information from one of the if statments below
         let fileres = ''
@@ -49,29 +51,121 @@ module.exports = {
         //Sci stands for Science linking this variable to line 13 when we define the choice for Science in the command
         if (category === 'sci') {
             fileres = '***SCIENCE COMPUTER FILES***'
-            fileacc = '***[SCIENCE COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/report-223a.md)***'
+            fileacc = '***[SCIENCE COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/'
+            switch (ran) {
+                case 5:
+                    fileacc += 'science-report-223a.md)***'
+                    break
+                case 4:
+                    fileacc += 'science-report-227a.md)***'
+                    break
+                case 3:
+                    fileacc += 'science-report-235a.md)***'
+                    break
+                case 2:
+                    fileacc += 'science-report-235b.md)***';
+                    break;
+                case 1:
+                    fileacc += 'science-report-236a.md)***';
+                    break;
+            }
         }
 
         //eng stands for Engineering linking this variable to line 14 when we define the choice for Engineering in the command
         if (category === 'eng') {
             fileres = '***ENGINEERING COMPUTER FILES***'
-            fileacc = '***[ENGINEERING COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/report-223a.md)***'
+            fileacc = '***[ENGINEERING COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/engineering-files/'
+            switch (ran) {
+                case 5:
+                    fileacc += 'engineering-report-549a.md)***'
+                    break
+                case 4:
+                    fileacc += 'engineering-report-563b.md)***'
+                    break
+                case 3:
+                    fileacc += 'engineering-report-543a.md)***'
+                    break
+                case 2:
+                    fileacc += 'engineering-report-565a.md)***';
+                    break;
+                case 1:
+                    fileacc += 'engineering-report-565b.md)***';
+                    break;
+            }
         }
+       
         //tac stands for Tactical linking this variable to line 15 when we define the choice for Tactical in the command
         if (category === 'tac') {
             fileres = '***TACTICAL COMPUTER FILES***'
             fileacc = '***[TACTICAL COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/report-223a.md)***'
+            switch (ran) {
+                case 5:
+                    fileacc += 'science-report-223a.md)***'
+                    break
+                case 4:
+                    fileacc += 'science-report-227a.md)***'
+                    break
+                case 3:
+                    fileacc += 'science-report-235a.md)***'
+                    break
+                case 2:
+                    fileacc += 'science-report-235b.md)***';
+                    break;
+                case 1:
+                    fileacc += 'science-report-236a.md)***';
+                    break;
+            }
         }
+        
         //nav stands for Navigation linking this variable to line 16 when we diffine the choice for Navigation in the command
         if (category === 'nav') {
             fileres = '***NAVIGATION COMPUTER FILES***'
             fileacc = '***[NAVIGATION COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/report-223a.md)***'
+            switch (ran) {
+                case 5:
+                    fileacc += 'science-report-223a.md)***'
+                    break
+                case 4:
+                    fileacc += 'science-report-227a.md)***'
+                    break
+                case 3:
+                    fileacc += 'science-report-235a.md)***'
+                    break
+                case 2:
+                    fileacc += 'science-report-235b.md)***';
+                    break;
+                case 1:
+                    fileacc += 'science-report-236a.md)***';
+                    break;
+            }
         }
+        
         //Cmd stands for Commmand linking this variable to line 17 when we diffine the choice for Command in the command
         if (category === 'cmd') {
             fileres = '***COMMAND COMPUTER FILES***'
             fileacc = '***[COMMAND COMPUTER FILES](https://github.com/ToastedExistence/ToastedBot/blob/main/lcars-database/science-files/report-223a.md)***'
+            switch (ran) {
+                case 5:
+                    fileacc += 'science-report-223a.md)***'
+                    break
+                case 4:
+                    fileacc += 'science-report-227a.md)***'
+                    break
+                case 3:
+                    fileacc += 'science-report-235a.md)***'
+                    break
+                case 2:
+                    fileacc += 'science-report-235b.md)***';
+                    break;
+                case 1:
+                    fileacc += 'science-report-236a.md)***';
+                    break;
+            }
         }
+
+
+
+
 
         //this is the first message sent, This acts a loading screen for now. "fileres" is defined above in line 41, "ephemeral" means that the message will be sent only to the user who sent the command
         await interaction.reply({ content: `## **LOADING:** ${fileres}`, ephemeral: true });
