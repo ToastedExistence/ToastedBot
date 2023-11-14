@@ -6,7 +6,7 @@ A multi-use Discord bot built for ToastedExistence's [Discord server](https://di
 ## Authors
 
 - [ToastedExistence](https://www.github.com/toastedexistence)
-
+- 
 
 
 ## Acknowledgements
