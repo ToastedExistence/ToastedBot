@@ -45,10 +45,10 @@ We definitely ~never~~ have used a product by the LCARS name to wave a war in ou
 *We may or may not consider all of our customers to be nonpaying due to us counting every payment from a customer as a donation 
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to us at therealsilo@gmail.com
 
 
 ## Support
 
-For support, email fake@fake.com or join our Slack channel.
+For support, email therealsilo@gmail.com or join our Slack channel.
 
