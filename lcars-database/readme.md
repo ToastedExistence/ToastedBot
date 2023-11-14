@@ -42,7 +42,7 @@ No, of course not we would never lie to a paying customer.*
 
 We definitely ~never~~ have used a product by the LCARS name to wave a war in our favor 
 
-
+*We may or may not consider all of our customers to be nonpaying due to us counting every payment from a customer as a donation 
 ## Feedback
 
 If you have any feedback, please reach out to us at fake@fake.com
