@@ -11,9 +11,9 @@
 The USS Explorer has undergone a replicator system upgrade to improve efficiency, reduce energy consumption, and enhance the overall reliability of onboard replicators.
 
 **Upgrades:**
-1. Subspace Matrix Realignment: Replicator subspace matrices were realigned for more efficient pattern replication.
-2. Energy Conservation Algorithms: Implemented new algorithms to reduce energy consumption during replication processes.
-3. Diagnostic Autocorrection: Replicator systems now feature autocorrection protocols to address minor glitches and prevent malfunctions.
+1. **Subspace Matrix Realignment: Replicator subspace matrices were realigned for more efficient pattern replication.
+2. **Energy Conservation Algorithms:** Implemented new algorithms to reduce energy consumption during replication processes.
+3. **Diagnostic Autocorrection:** Replicator systems now feature autocorrection protocols to address minor glitches and prevent malfunctions.
 
 **Results:**
 Preliminary tests indicate a 20% reduction in energy consumption and a 12% increase in replication speed.
