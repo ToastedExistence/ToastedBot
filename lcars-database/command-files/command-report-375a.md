@@ -27,6 +27,8 @@
 
 *Thank you for your immediate attention to this matter.*
 
-**Sincerely,
-Captain E. Ramirez
-USS Horizon**
+**Sincerely,**
+
+**Captain E. Ramirez**
+
+**USS Horizon**
