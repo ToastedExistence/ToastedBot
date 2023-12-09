@@ -30,8 +30,10 @@
 
 7. **Request:** *We request an additional supply of agricultural equipment to enhance food production and sustain the growing population. Also, considering the scientific advancements, we propose the assignment of a Starfleet Science Officer to collaborate with our research team.*
 
-**Your attention to these matters is appreciated.**
+*Your attention to these matters is appreciated.*
 
-**Thank you,
-Colonel E. Rodriguez
-Nova Prime Colony Administrator**
+**Thank you,**
+
+**Colonel E. Rodriguez**
+
+**Nova Prime Colony Administrator**
