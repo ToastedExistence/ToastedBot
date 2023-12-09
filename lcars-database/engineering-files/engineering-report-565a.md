@@ -21,9 +21,9 @@ The USS Pioneer X-1, a prototype exploration vessel designed for advanced deep-s
 - **Exploration Capabilities:** Advanced sensor arrays and an astrometric laboratory for detailed star charting.
 
 **Initial Findings:**
-1. Warp Drive Performance: The USS Pioneer X-1 demonstrated exceptional warp drive stability during high-warp maneuvers.
-2. Weapons Testing: Phasers and photon torpedoes performed within expected parameters, while tachyon pulse emitters showed promise in deflecting incoming threats.
-3. Crew Comfort: Initial feedback from the crew indicates high satisfaction with living conditions and amenities.
+1. **Warp Drive Performance:** The USS Pioneer X-1 demonstrated exceptional warp drive stability during high-warp maneuvers.
+2. **Weapons Testing:** Phasers and photon torpedoes performed within expected parameters, while tachyon pulse emitters showed promise in deflecting incoming threats.
+3. **Crew Comfort:** Initial feedback from the crew indicates high satisfaction with living conditions and amenities.
 
 **Recommendations:**
 1. Continue warp field stress tests to assess long-term warp drive reliability.
