@@ -16,7 +16,7 @@ The USS Pioneer X-1, a prototype exploration vessel designed for advanced deep-s
 - **Speed:** Maximum sustainable warp factor of 9.5; capable of sustained high-warp travel.
 - **Firepower:** Advanced phaser arrays and photon torpedo launchers, providing superior offensive capabilities.
 - **Weapons:** Equipped with experimental tachyon pulse emitters for enhanced defensive capabilities.
-- Crew Capacity: Accommodates a crew of 150 officers and enlisted personnel.
+- **Crew Capacity:** Accommodates a crew of 150 officers and enlisted personnel.
 - **Comfort:** State-of-the-art crew quarters, recreational facilities, and a dedicated holodeck for crew well-being.
 - **Exploration Capabilities:** Advanced sensor arrays and an astrometric laboratory for detailed star charting.
 
