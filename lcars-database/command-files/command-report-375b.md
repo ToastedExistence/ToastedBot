@@ -1,6 +1,8 @@
 ## STARFLEET COMMAND
-- LOGISTICS DIVISION
-- Commander M. PATEL
+
+**LOGISTICS DIVISION**
+
+**Commander M. PATEL**
 
 # LOGISTICS RESPONSE: USS HORIZON SUPPLY REQUEST
 
@@ -22,6 +24,8 @@
 
 *Thank you for your patience, and we wish you a safe and successful continuation of your mission.*
 
-**Sincerely,
-Commander M. Patel
-Starfleet Command Logistics Division**
+**Sincerely,**
+
+**Commander M. Patel**
+
+**Starfleet Command Logistics Division**
