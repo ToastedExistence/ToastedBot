@@ -29,7 +29,3 @@ The USS Vigilant, under my navigation, navigated through the Briar Patch, a haza
 The USS Vigilant's successful navigation through the complex and dynamic environment of the Azure Nebula opens new possibilities for scientific exploration and navigation.
 
 # End of Report.
-
-
-**Summary:**
-The USS Phoenix, under my navigation, participated in a transwarp corridor experiment in collaboration with Starfleet Corps of Engineers. The objective was to test the viability of creating stable transwarp conduits for rapid travel between distant regions of the galaxy.
