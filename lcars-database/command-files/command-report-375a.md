@@ -1,35 +1,30 @@
 ## STARFLEET COMMAND
-- USS EXCALIBUR NCC-26517
-- Captain Kathryn Janeway
+- USS HORIZON NCC-93245
+- Captain E. RAMIREZ
 
-## MISSION REPORT: RESCUE OPERATION - BAJORAN FREIGHTER IN DISTRESS
+# LOGISTICS REQUEST: CRITICAL SUPPLY SHORTAGES
 
- -Date: Stardate 51234.7
+**Date:** Stardate 54987.3
 
-**Summary:**
-The USS Excalibur successfully executed a rescue mission to aid a distressed Bajoran freighter, the SS Celestial Horizon, which was under attack by unknown hostile forces. The operation resulted in the protection of civilian lives and the neutralization of the aggressors.
+**Subject:** Urgent Resupply Request
 
-**Engagement Details:**
-- Received distress signal from SS Celestial Horizon in the Denorios Belt.
-- Arrived at the location to find two unidentified Kazon raider vessels attacking the freighter.
-- Engaged hostile forces, employing evasive maneuvers and returning fire to protect the civilian vessel.
-- Coordinated with Bajoran authorities for the safe evacuation of the freighter's crew.
+**To:** Starfleet Command Logistics Division
 
-**Casualties:**
-- USS Excalibur sustained minor damage to the port nacelle, which is currently undergoing repairs.
-- Kazon raiders destroyed, no Starfleet casualties reported.
+*Command,*
 
-**Recommendations:**
-- Conduct a thorough analysis of the Denorios Belt region to assess potential threats to civilian shipping lanes.
-- Share intelligence on Kazon activity with neighboring Starfleet outposts for increased situational awareness.
-- Commend the crew for their quick and decisive actions in the face of unexpected hostilities.
+*The USS Horizon, currently on a prolonged exploration mission near the Galactic Barrier, is facing critical shortages of mission-essential supplies. Our extended journey has depleted our reserves, and we urgently require the following items for the continued functionality of our ship:*
 
-**Captain's Note:**
-The crew of the USS Excalibur demonstrated exceptional professionalism and teamwork during this rescue operation. Our commitment to the safety of all sentient beings remains unwavering, and we stand ready to face any challenges that may arise in the course of our duty.
+1. **Dilithium crystals - 10 units**
+2. **Quantum torpedoes - 15 units**
+3. **Advanced navigational sensors - Calibration kits (x5)**
+4. **Medical supplies (general restock) - Level 4**
 
-# End of Report.
+*The current situation jeopardizes our ability to navigate safely through this region and poses a risk to the health and well-being of the crew.*
 
+*Please expedite the processing of this request, and advise on the estimated time of arrival for the resupply.*
 
+*Thank you for your immediate attention to this matter.*
 
-
-
+**Sincerely,
+Captain E. Ramirez
+USS Horizon**
