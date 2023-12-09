@@ -23,4 +23,4 @@ A comprehensive analysis of the USS Pioneer's warp core efficiency was conducted
 **Chief Engineer's Note:**
 The improvements made to the warp core systems have resulted in a more fuel-efficient propulsion system. The USS Pioneer is now better equipped for extended exploratory missions.
 
-End of Report.
+# End of Report.
