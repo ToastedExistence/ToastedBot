@@ -25,18 +25,19 @@
 
 **Recommendations:**
 
-*Increased Sensor Sweep: Conduct thorough sensor sweeps of nearby star systems to identify any additional anomalies or disturbances in subspace.*
+***Increased Sensor Sweep:** Conduct thorough sensor sweeps of nearby star systems to identify any additional anomalies or disturbances in subspace.
 
-*Preparedness Protocols: Implement preparedness protocols for starships operating in proximity to the Alpha Sector. Ensure that crew members are briefed on anomaly response procedures.*
+**Preparedness Protocols:** Implement preparedness protocols for starships operating in proximity to the Alpha Sector. Ensure that crew members are briefed on anomaly response procedures.
 
-*Scientific Collaboration: Facilitate collaboration between Starfleet science divisions, research outposts, and allied powers to pool knowledge and resources for a comprehensive analysis of the anomaly.*
+**Scientific Collaboration:** Facilitate collaboration between Starfleet science divisions, research outposts, and allied powers to pool knowledge and resources for a comprehensive analysis of the anomaly.
 
 **Conclusion:**
-*The potential threat posed by this subspace anomaly necessitates a coordinated and swift response. Regular updates on the USS Intrepid's findings and further directives for anomaly response will follow as the situation unfolds.*
+The potential threat posed by this subspace anomaly necessitates a coordinated and swift response. Regular updates on the USS Intrepid's findings and further directives for anomaly response will follow as the situation unfolds.
 
 *Thank you for your attention to this matter.*
 
-*Sincerely,*
+**Sincerely,**
 
-**Commodore A. Richards
-Starfleet Command, Alpha Sector Operations**
+**Commodore A. Richards**
+
+**Starfleet Command, Alpha Sector Operations**
