@@ -1,6 +1,8 @@
 ## STARFLEET COMMAND
-- USS FRONTIER NCC-88723
-- Captain R. ANDERSON
+
+**USS FRONTIER NCC-88723**
+
+**Captain R. ANDERSON**
 
 # SUPPLY REQUEST: MISSION-ESSENTIAL SUPPLIES
 
@@ -26,6 +28,8 @@
 
 *Thank you for your prompt attention to this matter.*
 
-**Sincerely,
-Captain R. Anderson
-USS Frontier**
+**Sincerely,**
+
+**Captain R. Anderson**
+
+**USS Frontier**
