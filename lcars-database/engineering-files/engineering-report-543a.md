@@ -1,6 +1,8 @@
 ## STARFLEET COMMAND
-- **ENGINEERING DIVISION**
-- **Chief Engineer:** Lt. Commander S. MARTINEZ
+
+**ENGINEERING DIVISION**
+
+**Chief Engineer:** Lt. Commander S. MARTINEZ
 
 # **ENGINEERING REPORT:** USS PIONEER NCC-74946
 **Subject:** Warp Core Efficiency Analysis
